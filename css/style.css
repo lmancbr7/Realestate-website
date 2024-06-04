@@ -535,6 +535,36 @@ button {
   column-gap: .75rem;
   margin-bottom: 1.25rem; 
 }
+.contact__card i{
+  padding: 6px;
+  background-color: var(--first-color-lighten);
+  border-radius: 6px;
+  font-size: 1.25rem;
+  color: var(--first-color);
+}
+.contact__card-title{
+  font-size: var(--normal-font-size);
+}
+.contact__card-description{
+  font-size: var(--smaller-font-size);
+}
+.contact__card-button{
+  font-size: var(--small-font-size);
+  padding: 14px 0;
+  width: 100%;
+  border-radius: .25rem;
+  background: var(--first-color-lighten);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+  box-shadow: none;
+}
+.contact__card-button:hover{
+  background-color: var(--first-color);
+  color: #fff;
+}
+.contact__card-box:hover{
+  box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1);
+}
 
 /* SUBSCRIBE */
 
