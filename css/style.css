@@ -272,9 +272,43 @@ button {
   display: flex;
   justify-content: center;
 }
+.home__orbe{
+  width: 265px;
+  height: 284px;
+  background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%, hsl(0, 0%, 67%) 100%);
+  border-radius: 135px 135px 0 0;
+}
+.home__img{
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 125px 125px 12px 12px;
+  display: inline-block;
+  align-items: flex-end;
+  bottom: -1.5rem;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+}
 
 /* BUTTON */
-
+.button{
+  display: inline-block;
+  background: linear-gradient(101deg, hsl(228, 66%, 53%), hsl(228, 66%, 47%));
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: .5rem;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  box-shadow: 0 4px 8px hsla(228, 66%, 45%, .25);
+  transition: .3s;
+  cursor: pointer;
+}
+.button:hover{
+  box-shadow: 0 4px 12px hsla(228, 66%, 45%, .25);
+}
+.nav__button{
+  display: none;
+}
 
 /* LOGOS */
 
