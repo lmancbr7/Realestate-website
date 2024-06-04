@@ -662,6 +662,16 @@ button {
   text-align: center;
   row-gap: 1.5rem;
 }
+.footer__copy,
+.footer__privacy a{
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+}
+.footer__privacy{
+  justify-content: center;
+  column-gap: 1.25rem;
+}
 
 /* SCROLL BAR */
 
