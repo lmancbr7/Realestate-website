@@ -589,6 +589,11 @@ button {
 }
 .subscribe__button{
   border: 2px solid #fff;
+  background: var(--first-color-light);
+  font-size: var(--small-font-size);
+}
+.subscribe__button:hover{
+  background-color: var(--first-color);
 }
 
 /* FOOTER */
