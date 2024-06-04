@@ -95,10 +95,26 @@ button {
 }
 
 /* Theme */
-
+.change-theme{
+  font-size: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+.change-theme:hover{
+  color: var(--first-color);
+}
 
 /* Variables dark theme */
-
+body.dark-theme{
+  --first-color: hsl(228, 66%, 62%);
+  --second-color: hsl(25, 57%, 54%);
+  --title-color: hsl(228, 8%, 95%);
+  --text-color: hsl(228, 8%, 70%);
+  --border-color: hsl(228, 16%, 14%);
+  --body-color: hsl(228, 12%, 8%);
+  --container-color: hsl(228, 16%, 12%);
+}
 
 /* Color changes in some parts of the website, in dark theme */
 
@@ -208,6 +224,9 @@ button {
 }
 .scroll-header .nav__logo{
   color: var(--first-color);
+}
+.scroll-header .change-theme{
+  color: var(--title-color);
 }
 
 /* Active link */
