@@ -1046,6 +1046,36 @@ body.dark-theme{
   .footer__links{
     row-gap: 1rem;
   }
+  .footer__info{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .show-scroll{
+    bottom: 3rem;
+    right: 3rem;
+  }
+}
+
+@media screen and (min-width: 1040px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .home__container{
+    column-gap: 4rem;
+  }
 }
 
 /* For 2K & 4K resolutions */
+@media screen and (min-width: 2048px){
+  body{
+    zoom: 1.5;
+  }
+}
+
+@media screen and (min-width: 3840px){
+  body{
+    zoom: 2;
+  }
+}
